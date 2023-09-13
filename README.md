@@ -84,10 +84,10 @@ After training, you can use the trained LoRA-adapted model for inference on new 
 
 ## Untrained Model Predictions
 
-![Untrained Model Predictions](screenshots/untrained_model_predictions.png)
+![Untrained Model Predictions](outpu_samples/untrained_model_predictions.png)
 
 
 ## Trained Model Predictions
 
-![Trained Model Predictions](screenshots/trained_model_predictions.png)
+![Trained Model Predictions](outpu_samples/trained_model_predictions.png)
 
