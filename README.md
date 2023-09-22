@@ -1,6 +1,6 @@
 # Fine-tuning-an-LLM-using-LoRA
 
-This repository is inspired by the article ["Fine-tuning Large Language Models (LLMs)"](https://towardsdatascience.com/fine-tuning-large-language-models-llms-23473d763b91) and contains code for training a text classification model using the Stanford Sentiment Treebank (SST-2) dataset and LoRA (Low-Rank Adaptation of Large Language Models) fine-tuning. LoRA operates on the insight that the difference between the fine-tuned weights for a specialized task and the initial pre-trained weights often exhibits "low intrinsic rank," meaning that it can be approximated well by a matrix of low rank. This technique allows for efficient adaptation of large language models to specific tasks.
+This repository is inspired by the article ["Fine-tuning Large Language Models (LLMs)"](https://towardsdatascience.com/fine-tuning-large-language-models-llms-23473d763b91) and contains code for training a text classification model using the Stanford Sentiment Treebank (SST-2) dataset and LoRA (Low-Rank Adaptation of Large Language Models) fine-tuning. LoRA is a way to make the language model more adaptable and efficient. Instead of training the whole model again for each task, LoRA freezes the pre-trained model and adds smaller trainable matrices to each model layer. These matrices help the model adapt to different tasks without changing all the parameters.
 
 ## Table of Contents
 - [Installation](#installation)
